@@ -1,7 +1,6 @@
 # hd
 
-hd (hexdump) is a modified version of hexdump / xxd that allows more flexibility for formatting
-the byte values.
+hd (hexdump) is like hexdump / xxd but allows more flexibility in formatting the byte values.
 
 ## Usage
 
@@ -13,9 +12,10 @@ hd.py --input_file=INPUT_FILE
 
 Arguments:
 
-  - --input_file: th to input file.
-  - --num_bytes: Number of bytes (from top of file) to read. Default: read all
-  - --bytes_per_row: Number of bytes per row. Default: 10
-  - -b: Enable binary output.
-  - -h: Enable hex output.
-  = -d: Enable decimal output.
+  - `--input_file`: The filepath to input file.
+  - `--num_bytes`: Number of bytes to read. (default: read all)
+  - `--bytes_per_row`: Number of bytes per row. (default: 10)
+  - `-b`: Enable binary output.
+  - `-h`: Enable hex output.
+  - `-d`: Enable decimal output.
+
